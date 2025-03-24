@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Demo</title>
+</head>
+<body>
+    <h1>Local Demo</h1>
+
+    <script>
+        window._SERVER_DATA = {
+            router: {
+                baseUrl: "/",
+                params: {}
+            }
+        };
+
+        // 在这里可以为 baseUrl 赋值
+        window._SERVER_DATA.router.baseUrl = "your_new_base_url_here";
+
+        // 输出 _SERVER_DATA 内容到控制台
+        console.log(window._SERVER_DATA);
+    </script>
+</body>
+</html>
